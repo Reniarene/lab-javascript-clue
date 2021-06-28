@@ -3,10 +3,10 @@
 
 
 // Suspects Array
-const suspectsArray = [mrGreen,drOrchid,profPlum,missScarlet,mrsPeacock,mrMustard]; {
+const suspectsArray = [mrGreen, drOrchid, profPlum, missScarlet, mrsPeacock, mrMustard]; {
 
   let mrGreen = {
-    firstName: "Jacob ",
+    firstName: "Jacob",
     lastName: "Green",
     occupation: "Entrepreneur",
     age: 45,
@@ -132,7 +132,7 @@ const weaponsArray = [rope, knife, candlestick, dumbbell, poison, axe, bat, trop
   };
   let dumbbell = {
     name: 'dumbbell',
-    weight: 30,
+    weight: 30,m 
   };
   let poison = {
     name: 'poison',
@@ -178,7 +178,8 @@ function pickMystery(arr) {
 // ITERATION 3
 
 function revealMystery(envelope) {
-  return "${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr.Boddy using the ${envelope.weapons.name} in the ${envelope.room.name)!"
+
+  return `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr.Boddy using the ${envelope.weapons.name} in the ${envelope.room.name}!`;
 }
 
 
